@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.ar.core.examples.java.cloudanchor">
+    package="com.albert.vroom.cloudanchor">
 
   <uses-permission android:name="android.permission.CAMERA"/>
 
