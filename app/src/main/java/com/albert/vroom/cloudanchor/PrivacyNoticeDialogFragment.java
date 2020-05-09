@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ar.core.examples.java.cloudanchor;
+package com.albert.vroom.cloudanchor;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

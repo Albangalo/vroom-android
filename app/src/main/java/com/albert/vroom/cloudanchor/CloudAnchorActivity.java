@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ar.core.examples.java.cloudanchor;
+package com.albert.vroom.cloudanchor;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -46,18 +46,18 @@ import com.google.ar.core.PointCloud;
 import com.google.ar.core.Session;
 import com.google.ar.core.Trackable;
 import com.google.ar.core.TrackingState;
-import com.google.ar.core.examples.java.cloudanchor.PrivacyNoticeDialogFragment.HostResolveListener;
-import com.google.ar.core.examples.java.cloudanchor.PrivacyNoticeDialogFragment.NoticeDialogListener;
-import com.google.ar.core.examples.java.common.helpers.CameraPermissionHelper;
-import com.google.ar.core.examples.java.common.helpers.DisplayRotationHelper;
-import com.google.ar.core.examples.java.common.helpers.FullScreenHelper;
-import com.google.ar.core.examples.java.common.helpers.SnackbarHelper;
-import com.google.ar.core.examples.java.common.helpers.TrackingStateHelper;
-import com.google.ar.core.examples.java.common.rendering.BackgroundRenderer;
-import com.google.ar.core.examples.java.common.rendering.ObjectRenderer;
-import com.google.ar.core.examples.java.common.rendering.ObjectRenderer.BlendMode;
-import com.google.ar.core.examples.java.common.rendering.PlaneRenderer;
-import com.google.ar.core.examples.java.common.rendering.PointCloudRenderer;
+import com.albert.vroom.cloudanchor.PrivacyNoticeDialogFragment.HostResolveListener;
+import com.albert.vroom.cloudanchor.PrivacyNoticeDialogFragment.NoticeDialogListener;
+import com.albert.vroom.common.helpers.CameraPermissionHelper;
+import com.albert.vroom.common.helpers.DisplayRotationHelper;
+import com.albert.vroom.common.helpers.FullScreenHelper;
+import com.albert.vroom.common.helpers.SnackbarHelper;
+import com.albert.vroom.common.helpers.TrackingStateHelper;
+import com.albert.vroom.common.rendering.BackgroundRenderer;
+import com.albert.vroom.common.rendering.ObjectRenderer;
+import com.albert.vroom.common.rendering.ObjectRenderer.BlendMode;
+import com.albert.vroom.common.rendering.PlaneRenderer;
+import com.albert.vroom.common.rendering.PointCloudRenderer;
 import com.google.ar.core.exceptions.CameraNotAvailableException;
 import com.google.ar.core.exceptions.UnavailableApkTooOldException;
 import com.google.ar.core.exceptions.UnavailableArcoreNotInstalledException;
