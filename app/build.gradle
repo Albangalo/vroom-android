@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 
 def setVersionName = { ->
     if (project.hasProperty("androidVersionName")) {
@@ -45,10 +47,18 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0'
 
     implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.google.firebase:firebase-database-ktx:19.3.0'
     // Override conflicting Firebase support-media-compat:26.1.0 dependency.
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     implementation 'com.google.guava:guava:27.0.1-android'
+
+    implementation "androidx.core:core-ktx:1.2.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
 }
 
 apply plugin: 'com.google.gms.google-services'
+repositories {
+    mavenCentral()
+}
